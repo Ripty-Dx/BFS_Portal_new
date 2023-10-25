@@ -37,7 +37,7 @@ const Dashboard = () => {
                   <li>Merchandising Guidelines</li>
                   <li>Press</li>
                 </ul>
-                <button className="bg-transparent goToButton p-1">
+                <button className="bg-transparent goToButton p-2">
                   Go To The Library &nbsp; &nbsp;
                   <svg xmlns="http://www.w3.org/2000/svg" width="17" height="9" viewBox="0 0 17 9" fill="none">
                     <path
@@ -55,7 +55,7 @@ const Dashboard = () => {
                 <p className="m-0 assets">Teaching and Learning</p>
                 <p className="m-0 essentials"> Essentials for Retailing Our Brands:</p>
                 <p className="list">Adequate guidance under our experts will ensure that you are learning from the best and will guarantee you success.</p>
-                <button className="bg-transparent goToButton p-1" style={{ width: "40%" }}>
+                <button className="bg-transparent goToButton p-2" style={{ width: "50%" }}>
                   Open The Course &nbsp; &nbsp;
                   <svg xmlns="http://www.w3.org/2000/svg" width="17" height="9" viewBox="0 0 17 9" fill="none">
                     <path
@@ -81,7 +81,7 @@ const Dashboard = () => {
                   <img src={require("./images/image 20.jpg")} className="mx-auto my-auto" alt="img" />
                 </div>
                 <div className="d-flex  flex-column">
-                  <p className="mt-1 brandName">RMS Beauty</p>
+                  <p className="mt-2 brandName">RMS Beauty</p>
                   <a href="#12" className="m-0 order">
                     Order Now &nbsp;
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8" fill="none">
@@ -98,7 +98,7 @@ const Dashboard = () => {
                   <img src={require("./images/image 19.jpg")} className="mx-auto my-auto" alt="img" />
                 </div>
                 <div className="d-flex  flex-column">
-                  <p className="mt-1 brandName">Bobbi Brown</p>
+                  <p className="mt-2 brandName">Bobbi Brown</p>
                   <a href="#12" className="m-0 order">
                     Order Now &nbsp;
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8" fill="none">
@@ -115,7 +115,7 @@ const Dashboard = () => {
                   <img src={require("./images/image 4.jpg")} className="mx-auto my-auto" alt="img" />
                 </div>
                 <div className="d-flex  flex-column">
-                  <p className="mt-1 brandName">Eve Lom</p>
+                  <p className="mt-2 brandName">Eve Lom</p>
                   <a href="#12" className="m-0 order">
                     Order Now &nbsp;
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8" fill="none">
@@ -132,7 +132,7 @@ const Dashboard = () => {
                   <img src={require("./images/image 21.jpg")} className="mx-auto my-auto" alt="img" />
                 </div>
                 <div className="d-flex  flex-column">
-                  <p className="mt-1 brandName">ReVive</p>
+                  <p className="mt-2 brandName">ReVive</p>
                   <a href="#12" className="m-0 order">
                     Order Now &nbsp;
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8" fill="none">
