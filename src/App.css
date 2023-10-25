@@ -1,1 +1,49 @@
 @import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: "AktivGrotesk_Medium";
+  src: url(./Fonts/AktivGrotesk-Medium.ttf);
+}
+@font-face {
+  font-family: "AktivGrotesk_Light";
+  src: url(./Fonts/AktivGrotesk-Light.ttf);
+}
+@font-face {
+  font-family: "FONTSPRING_DEMO_Juana_Alt_Medium";
+  src: url(./Fonts/Fontspring-DEMO-juanaalt-medium.ttf);
+}
+@font-face {
+  font-family: "Fontspring_DEMO_juanaalt_extralight";
+  src: url("./Fonts/Fontspring-DEMO-juanaalt-extralight.otf") format("opentype");
+}
+@font-face {
+  font-family: "Fontspring_DEMO_juanaalt_light";
+  src: url("./Fonts/Fontspring-DEMO-juanaalt-light.otf") format("opentype");
+}
+:root {
+  --header_background_color: rgba(248, 247, 243, 1);
+  --header_font_color: #58615a;
+  --header_font_size: 14px;
+  --header_light_font_color: rgba(161, 161, 162, 1);
+  --header_font_family: "AktivGrotesk_Medium";
+  --footer_background_color: rgba(52, 48, 45, 1);
+  --footer_font_color: white;
+}
+.bg_paleYellow {
+  background-color: var(--header_background_color);
+}
+.line_ruler {
+  background-color: #403a35;
+  height: 1px;
+}
+.footer {
+  background-color: var(--footer_background_color);
+  color: var(--footer_font_color);
+}

@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "AktivGrotesk_Medium";
+  src: url(../../Fonts/AktivGrotesk-Medium.ttf) format("truetype");
+}
+.header {
+  background-color: var(--header_background_color);
+  color: var(--header_font_color);
+  font-size: var(--header_font_size);
+  font-family: "AktivGrotesk_Medium";
+}
+.header_light_color {
+  color: var(--header_light_font_color);
+}
+.header_drop_down_list {
+  font-family: "AktivGrotesk_Light";
+  font-size: 14px;
+}
+
