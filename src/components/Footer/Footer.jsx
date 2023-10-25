@@ -4,7 +4,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <>
-      <div className="container-fluid m-0">
+      <div className="container"  style={{maxWidth:"100%"}}>
         <div className="row footer">
           <div className="d-flex p-5 justify-content-evenly gap-5 align-items-center">
             <div className="d-flex flex-column justify-content-center">

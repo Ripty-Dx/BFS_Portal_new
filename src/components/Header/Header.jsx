@@ -4,7 +4,7 @@ import "./header.css";
 const Header = () => {
   return (
     <>
-      <div className="container-fluid">
+      <div className="container" style={{maxWidth:"100%"}}>
         <div className="row">
           <div className="d-flex justify-content-evenly align-items-center header p-2">
             <div className="d-flex justify-content-center align-items-center gap-4">

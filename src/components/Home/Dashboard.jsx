@@ -3,11 +3,11 @@ import "./dashboard.css";
 const Dashboard = () => {
   return (
     <>
-      <div className="bg_paleYellow container-fluid m-0 p-0">
+      <div className="container-fluid m-0 p-0" style={{ maxWidth: "100%" }}>
         {/* first row */}
-        <div className="row">
-          <div className="d-flex ">
-            <div className="col-5 ">
+        <div className="row bg_paleYellow m-0">
+          <div className="d-flex m-0">
+            <div className="col-5 m-0">
               <div className="px-5 pt-4 pb-5 gap-4 d-flex flex-column">
                 <p className="m-0 p-0 merchant ">FOR merchants</p>
                 <p className="m-0 p-0 merchant" style={{ fontSize: "45px" }}>
@@ -49,7 +49,7 @@ const Dashboard = () => {
               </div>
             </div>
             <div className="col-4 ">
-              <div className="px-4  gap-4 d-flex flex-column align-items-start pt-4">
+              <div className="px-4 pe-5  gap-4 d-flex flex-column align-items-start pt-4">
                 <img src={require("./images/image 7.jpg")} alt="img" style={{ height: "260px", width: "312px" }} />
                 <p className="m-0 retailer">ARE YOU A STORE EMPLOYEE?</p>
                 <p className="m-0 assets">Teaching and Learning</p>
@@ -72,7 +72,7 @@ const Dashboard = () => {
 
         <hr className="line_ruler w-100 m-0 p-0" style={{ height: "2px" }}></hr>
         {/* second row */}
-        <div className="row">
+        <div className="row bg_paleYellow m-0">
           <div className="d-flex justify-content-center align-items-center p-4 flex-column">
             <p className=" number">YOUR NUMBER ONE SOURCE FOR UNIQUE BEAUTY BRANDS</p>
             <div className="d-flex justify-content-center align-items-center gap-3">
@@ -147,6 +147,8 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
+        <div className="row bg-white m-0" style={{ height: "20px" }}></div>
+
         {/* third row */}
         <div style={{ backgroundColor: "rgba(195, 188, 182, 1)" }} className="d-flex flex-column p-5 align-items-center">
           <p className="mt-3 forRetailers">For Retailers</p>
