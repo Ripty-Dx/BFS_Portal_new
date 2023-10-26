@@ -12,12 +12,17 @@ const Dashboard = () => {
             <div className="col-5 m-0">
               <div className="px-5 pt-4 pb-5 gap-4 d-flex flex-column">
                 <p className="m-0 p-0 merchant ">FOR merchants</p>
-                <p className="m-0 p-0 merchant" style={{ fontSize: "45px" }}>
-                  beauty
-                </p>
-                <p className="m-0 p-0 merchant text-capitalize" style={{ fontSize: "27px" }}>
-                  spot
-                </p>
+                <div>
+                  <p className="m-0 mt-5 p-0 merchant" style={{ fontSize: "45px", lineHeight: "25px" }}>
+                    beauty
+                  </p>
+                  <div className="d-flex m-0 p-0">
+                    <div style={{ height: "5.5px", backgroundColor: "rgba(75, 69, 64, 1)" , width:"106.5px", marginTop:"23px"}}></div>
+                    <p className="m-0 p-0 merchant text-capitalize" style={{ fontSize: "27px" }}>
+                      &nbsp;spot
+                    </p>
+                  </div>
+                </div>
                 <p className="m-0 p-0 welcome">Welcome to the Indian Queens Royal Digital Library and Education Center.</p>
                 <p className="m-0 p-0 establish">
                   We <span>&#39;</span> ve established this digital repository with the aim of providing effortless entry to knowledge, learning, and online assistance. Get ready to delve into our
