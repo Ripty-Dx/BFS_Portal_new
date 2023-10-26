@@ -4,9 +4,10 @@ import "./header.css";
 const Header = () => {
   return (
     <>
-      <div className="container" style={{maxWidth:"100%"}}>
+      <div className="container" style={{ maxWidth: "100%" }}>
         <div className="row">
           <div className="d-flex justify-content-evenly align-items-center header p-2">
+            {/* options */}
             <div className="d-flex justify-content-center align-items-center gap-4">
               <div className="text-uppercase">OUR BRAnDS</div>
               <div className="text-uppercase"> Merchants Center</div>
@@ -39,9 +40,11 @@ const Header = () => {
                 </ul>
               </div>
             </div>
+            {/* logo */}
             <div className="d-flex justify-content-center align-items-center">
-              <img src={require("./images/beautyFashion.png")} className="w-50" alt="logo" />
+              <img src="/images/beautyFashion.png" className="w-50" alt="logo" />
             </div>
+            {/* icons */}
             <div className="d-flex justify-content-center align-items-center gap-2 header">
               <div className="text-uppercase mx-2"> SUPPORT </div>
               <button className="mx-2 text-uppercase bg-dark text-white border-0 "> Order Now </button>
