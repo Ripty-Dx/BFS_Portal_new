@@ -2,6 +2,7 @@ import React from "react";
 import "./dashboard.css";
 import InterestedIn from "../InterestedIn/InterestedIn";
 import BeautyBrands from "../BeautyBrandsInHome/BeautyBrands";
+import ArrowSymbol from "../ArrowSymbol";
 const Dashboard = () => {
   return (
     <>
@@ -17,7 +18,7 @@ const Dashboard = () => {
                     beauty
                   </p>
                   <div className="d-flex m-0 p-0">
-                    <div style={{ height: "5.5px", backgroundColor: "rgba(75, 69, 64, 1)" , width:"106.5px", marginTop:"23px"}}></div>
+                    <div style={{ height: "5.5px", backgroundColor: "rgba(75, 69, 64, 1)", width: "106.5px", marginTop: "23px" }}></div>
                     <p className="m-0 p-0 merchant text-capitalize" style={{ fontSize: "27px" }}>
                       &nbsp;spot
                     </p>
@@ -46,12 +47,7 @@ const Dashboard = () => {
                 </ul>
                 <button className="bg-transparent goToButton p-2">
                   Go To The Library &nbsp; &nbsp;
-                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="9" viewBox="0 0 17 9" fill="none">
-                    <path
-                      d="M16 4.5L16.3712 4.16506L16.6734 4.5L16.3712 4.83494L16 4.5ZM0.999999 5C0.723857 5 0.499999 4.77614 0.499999 4.5C0.499999 4.22386 0.723857 4 0.999999 4V5ZM13.2133 0.665055L16.3712 4.16506L15.6288 4.83494L12.4709 1.33494L13.2133 0.665055ZM16.3712 4.83494L13.2133 8.33494L12.4709 7.66506L15.6288 4.16506L16.3712 4.83494ZM16 5H0.999999V4H16V5Z"
-                      fill="#58615A"
-                    />
-                  </svg>
+                  <ArrowSymbol size="large" />
                 </button>
               </div>
             </div>
@@ -64,12 +60,7 @@ const Dashboard = () => {
                 <p className="list">Adequate guidance under our experts will ensure that you are learning from the best and will guarantee you success.</p>
                 <button className="bg-transparent goToButton p-2" style={{ width: "50%" }}>
                   Open The Course &nbsp; &nbsp;
-                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="9" viewBox="0 0 17 9" fill="none">
-                    <path
-                      d="M16 4.5L16.3712 4.16506L16.6734 4.5L16.3712 4.83494L16 4.5ZM0.999999 5C0.723857 5 0.499999 4.77614 0.499999 4.5C0.499999 4.22386 0.723857 4 0.999999 4V5ZM13.2133 0.665055L16.3712 4.16506L15.6288 4.83494L12.4709 1.33494L13.2133 0.665055ZM16.3712 4.83494L13.2133 8.33494L12.4709 7.66506L15.6288 4.16506L16.3712 4.83494ZM16 5H0.999999V4H16V5Z"
-                      fill="#58615A"
-                    />
-                  </svg>{" "}
+                  <ArrowSymbol size="large" />
                   &nbsp; &nbsp;
                 </button>
               </div>

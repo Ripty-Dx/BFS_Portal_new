@@ -88,13 +88,4 @@
   font-weight: 300;
 }
 
-img:hover {
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
-  /* filter: hue-rotate(20deg); */
-  transition: filter 2ms;
-}
-img {
-  cursor: pointer;
-  filter: grayscale(100%);
-}
+

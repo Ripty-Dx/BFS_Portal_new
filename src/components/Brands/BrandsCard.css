@@ -1,0 +1,12 @@
+.brandNameInBrandCard {
+  color: var(--header_font_color);
+  font-family: "FONTSPRING_DEMO_Juana_Alt_Medium";
+  font-size: 20px;
+  font-weight: 500;
+}
+.borderAroundCard {
+  border-right: 0.5px solid #d0cfcf;
+  border-bottom: 0.5px solid #d0cfcf;
+  border-left: 0.5px solid #d0cfcf;
+  background: rgba(255, 255, 255, 0);
+}

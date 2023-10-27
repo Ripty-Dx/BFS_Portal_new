@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -9,7 +10,9 @@ const Header = () => {
           <div className="d-flex justify-content-evenly align-items-center header p-2">
             {/* options */}
             <div className="d-flex justify-content-center align-items-center gap-4">
-              <div className="text-uppercase">OUR BRAnDS</div>
+              <div className="text-uppercase">
+                <Link to="/brands"> OUR BRAnDS</Link>
+              </div>
               <div className="text-uppercase"> Merchants Center</div>
               <div className="dropdown">
                 <button className="border-0 header bg-transparent dropdown-toggle" type="button" data-bs-toggle="dropdown">
@@ -41,8 +44,10 @@ const Header = () => {
               </div>
             </div>
             {/* logo */}
-            <div className="d-flex justify-content-center align-items-center">
-              <img src="/images/beautyFashion.png" className="w-50" alt="logo" />
+            <div>
+              <Link to="/" className="d-flex justify-content-center align-items-center">
+                <img src="/images/beautyFashion.png" className="w-50" alt="logo" />
+              </Link>
             </div>
             {/* icons */}
             <div className="d-flex justify-content-center align-items-center gap-2 header">
@@ -56,8 +61,8 @@ const Header = () => {
               <button className="border-0 bg-transparent">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="24" viewBox="0 0 18 24" fill="none">
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M9 10.3385C6.51472 10.3385 4.5 8.02412 4.5 5.16923C4.5 2.31434 6.51472 0 9 0C11.4853 0 13.5 2.31434 13.5 5.16923C13.5 8.02412 11.4853 10.3385 9 10.3385ZM5.25 11.8154H12.75C15.6495 11.8154 18 14.1297 18 16.9846V18.4615C18 18.8694 17.6642 19.2 17.25 19.2H0.75C0.335786 19.2 0 18.8694 0 18.4615V16.9846C0 14.1297 2.35051 11.8154 5.25 11.8154Z"
                     fill="#58615A"
                   />

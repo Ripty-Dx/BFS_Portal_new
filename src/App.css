@@ -47,3 +47,16 @@ body {
   background-color: var(--footer_background_color);
   color: var(--footer_font_color);
 }
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  transition: filter 2ms;
+}
+img {
+  cursor: pointer;
+  filter: grayscale(100%);
+}
