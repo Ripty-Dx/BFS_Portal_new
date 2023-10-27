@@ -10,3 +10,16 @@
   border-left: 0.5px solid #d0cfcf;
   background: rgba(255, 255, 255, 0);
 }
+.brandNameInBrandCard:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+#brandImageDiv:hover {
+  cursor: pointer;
+}
+
+#brandImageDiv:hover img {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  transition: filter 2ms;
+}

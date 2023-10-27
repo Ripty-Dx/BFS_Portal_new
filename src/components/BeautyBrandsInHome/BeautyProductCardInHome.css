@@ -1,0 +1,8 @@
+#BeautyProductCardInHome:hover{
+    cursor: pointer;
+  }
+  #BeautyProductCardInHome:hover img{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition: filter 2ms;
+  }

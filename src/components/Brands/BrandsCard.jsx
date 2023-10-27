@@ -8,8 +8,8 @@ const BrandsCard = ({ BandName, imageWithExtension, verified }) => {
   return (
     <>
       <div className="d-flex justify-content-center align-items-center">
-        <div style={{ width: "260px" }}>
-          <div style={{ height: "192px" }} className="m-0 w-100 bg-white d-flex justify-content-center align-items-center">
+        <div style={{ width: "270px" }}>
+          <div id="brandImageDiv" style={{ height: "192px" }} className="m-0 w-100 bg-white d-flex justify-content-center align-items-center">
             <img src={`/images/${imageWithExtension}`} alt="img" style={{ width: "124px", height: "142px" }} />
           </div>
           <div style={{ height: "62px" }} className="borderAroundCard m-0 p-1 px-2 w-100 bg-transparent d-flex justify-content-between align-items-center">

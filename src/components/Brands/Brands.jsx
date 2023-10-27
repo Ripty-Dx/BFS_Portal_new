@@ -12,7 +12,7 @@ const Brands = () => {
               Below are the Brands available with <span>&#8220;</span>
               Beauty Fashions Sales Group<span>&#8221;</span>
             </p>
-            <div className="w-100 mb-4 d-flex gap-4 flex-wrap justify-content-center">
+            <div className="mb-4 d-flex gap-4 flex-wrap justify-content-start align-items-center mx-auto" style={{width:"93.6%"}}>
               <BrandsCard BandName="Diptyque" imageWithExtension="Diptyque.jpg" verified={true} />
               <BrandsCard BandName="Byredo" imageWithExtension="Byredo.jpg" verified={true} />
               <BrandsCard BandName="Maison Margiela" imageWithExtension="Maison Margiela.jpg" verified={false} />
