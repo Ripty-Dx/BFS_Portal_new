@@ -1,0 +1,23 @@
+{
+  "bobbi brown": {
+    "master header": {
+      "heading 1": "About Products",
+      "tag line": "Begin with Skin, Glow from Within",
+      "description": "In 1991, Bobbi Brown was founded by a female makeup artist in New York, designed for the world--your world. We offer approachable artistry and create beauty must-haves that look good, work hard, and stay fresh every hour of the day.",
+      "image": "/images/bobbi brown 1.jpg"
+    },
+    "brand details": {
+      "heading": "Get More From Our New Prolend Watch",
+      "description": "We remain women-first, champions of individual beauty, original owners of healthy, glowing skin, with the most premium products and effortless artistry, and expanding the brand and line in a way that is even more relevant to today’s consumer.",
+      "image1": "/images/girl on brands.jpg",
+      "image2": "/images/Bobbi Brown.jpg"
+    },
+    "why choose": {
+      "heading": "Why Choose Our Brand ",
+      "description": "We remain women-first, champions of individual beauty, original owners of healthy, glowing skin, with the most premium products and effortless artistry, and expanding the brand and line in a way that is even more relevant to today’s consumer.",
+      "no of products": "858",
+      "no of orders": "2246",
+      "no of pre-orders": "658"
+    }
+  }
+}

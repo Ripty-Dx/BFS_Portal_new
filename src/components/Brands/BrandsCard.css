@@ -21,5 +21,5 @@
 #brandImageDiv:hover img {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
-  transition: filter 2ms;
+  transition: filter 0.2s linear;
 }

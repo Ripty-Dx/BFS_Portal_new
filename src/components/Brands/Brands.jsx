@@ -12,7 +12,7 @@ const Brands = () => {
               Below are the Brands available with <span>&#8220;</span>
               Beauty Fashions Sales Group<span>&#8221;</span>
             </p>
-            <div className="mb-4 d-flex gap-4 flex-wrap justify-content-start align-items-center mx-auto" style={{width:"93.6%"}}>
+            <div className="mb-4 d-flex gap-4 flex-wrap justify-content-center align-items-center mx-auto" style={{maxWidth:"93.5%"}} >
               <BrandsCard BandName="Diptyque" imageWithExtension="Diptyque.jpg" verified={true} />
               <BrandsCard BandName="Byredo" imageWithExtension="Byredo.jpg" verified={true} />
               <BrandsCard BandName="Maison Margiela" imageWithExtension="Maison Margiela.jpg" verified={false} />
@@ -28,7 +28,7 @@ const Brands = () => {
               <BrandsCard BandName="Kevyn Aucoin" imageWithExtension="Kevyn Aucoin.jpg" verified={true} />
               <BrandsCard BandName="Smashbox" imageWithExtension="Smashbox.jpg" verified={true} />
               <BrandsCard BandName="EVE LOM" imageWithExtension="Eve Lom.jpg" verified={false} />
-
+              <BrandsCard BandName="EVE LOM" imageWithExtension="Eve Lom.jpg" verified={false}  visibility="invisible"/>
             </div>
           </div>
         </div>

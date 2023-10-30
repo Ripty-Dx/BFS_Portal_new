@@ -54,10 +54,16 @@ a {
 img:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
-  transition: filter 2ms;
+  transition: filter 0.2s linear;
 }
 img {
   cursor: pointer;
   filter: grayscale(100%);
 }
-
+.pageNotFound {
+  font-size: 50px;
+  font-family: "FONTSPRING_DEMO_Juana_Alt_Medium";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

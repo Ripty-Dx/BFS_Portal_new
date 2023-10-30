@@ -7,7 +7,7 @@ const Header = () => {
     <>
       <div className="container" style={{ maxWidth: "100%" }}>
         <div className="row">
-          <div className="d-flex justify-content-evenly align-items-center header p-2">
+          <div className="d-flex justify-content-between px-5 align-items-center header p-2">
             {/* options */}
             <div className="d-flex justify-content-center align-items-center gap-4">
               <div className="text-uppercase">
