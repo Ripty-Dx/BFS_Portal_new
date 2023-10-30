@@ -38,3 +38,9 @@
   font-size: 55px;
   font-weight: 700;
 }
+.smallImageBox {
+  height: 70px;
+  width: 70px;
+  border: 2px solid #444e50;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
