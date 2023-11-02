@@ -67,3 +67,6 @@ img {
   justify-content: center;
   align-items: center;
 }
+.imgNoGrayScale{
+  filter: grayscale(0%);
+}
