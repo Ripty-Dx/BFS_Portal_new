@@ -3,7 +3,7 @@ import React from "react";
 const RelatedProductCard = ({ cardText, cardHeading, imagePath }) => {
   return (
     <>
-      <div className="position-relative " style={{ height: "337px" }} id="BeautyProductCardInHome">
+      <div className="position-relative mt-5 " style={{ height: "275px" }} id="BeautyProductCardInHome">
         <div className="circle" id="BeautyProductCardInHome">
           <img src={imagePath} alt="" style={{ height: "89px",width:"89px" }} className="bg-white" />
         </div>

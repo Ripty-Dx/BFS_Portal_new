@@ -1,0 +1,72 @@
+.accountNameLetter {
+  color: var(--header_font_color);
+  text-align: center;
+  font-family: "FONTSPRING_DEMO_Juana_Alt_Medium";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 53.333% */
+  /* width: 35px;
+  height: 32px; */
+  position: relative;
+  z-index: 1;
+}
+.accountHolderName {
+  color: var(--header_font_color);
+  font-family: "Fontspring_DEMO_juanaalt_extralight";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 280;
+  line-height: 32px; /* 160% */
+}
+.explore {
+  color: var(--header_font_color);
+  font-family: "AktivGrotesk_Light";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 32px; /* 290.909% */
+  text-transform: uppercase;
+}
+.accountHeading {
+  color: var(--header_font_color);
+  font-family: "AktivGrotesk_Medium";
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.accountSort {
+  color: var(--header_font_color);
+  font-family: "AktivGrotesk_Medium";
+  font-size: 20px;
+  font-weight: 400;
+}
+.iconSort {
+  border-radius: 3px;
+  background: #58615a;
+  display: flex;
+}
+.iconLetter {
+  color: #fff;
+  font-family: "AktivGrotesk_Medium";
+  font-size: 15px;
+  font-weight: 400;
+  background: #58615a;
+  line-height: 13.5px;
+}
+.accountSelect {
+  border-radius: 5px;
+  border: 0.5px solid #e7e7e7;
+}
+.optionInSelect {
+  color: #cacaca;
+  font-family: "AktivGrotesk_Light";
+  font-size: 16px;
+  font-weight: 400;
+}
+.form-control::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #cacaca;
+  font-family: "AktivGrotesk_Light";
+  font-size: 16px;
+  font-weight: 400;
+}
