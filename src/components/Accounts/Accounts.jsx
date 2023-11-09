@@ -44,7 +44,7 @@ const Accounts = () => {
               </div>
               {/* search by account */}
               <div className="position-relative">
-                <input class="form-control accountSelect ps-4" style={{maxWidth:"18 0px"}} type="text" placeholder="Search By Account" />
+                <input class="form-control accountSelect ps-4" style={{maxWidth:"180px"}} type="text" placeholder="Search By Account" />
 
                 <div className="position-absolute" style={{ left: "5px", top: "5px" }}>
                   <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">

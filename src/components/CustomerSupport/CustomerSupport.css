@@ -1,0 +1,45 @@
+.headingCustomerSupport {
+  color: #424c4e;
+  font-family: "FONTSPRING_DEMO_Juana_Alt_Medium";
+  font-size: 25px;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.welcomeLine {
+  color: #424c4e;
+  font-family: "AktivGrotesk_Regular";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: normal;
+}
+.lineInSupport {
+  width: 961px;
+  height: 1px;
+  background: #dacfc2;
+}
+.boxInSupport {
+  width: 303px;
+  height: 98px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #d5d9d9;
+  background: #fff;
+}
+.boxHeading {
+  color: #424c4e;
+  font-family: "AktivGrotesk_Medium";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+.lineInBox {
+  color: #424c4e;
+  font-family: "AktivGrotesk_Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+.boxInSupport:hover {
+  cursor: pointer;
+}

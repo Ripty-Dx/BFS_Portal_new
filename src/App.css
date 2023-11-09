@@ -16,6 +16,10 @@ body {
   src: url(./Fonts/AktivGrotesk-Light.ttf);
 }
 @font-face {
+  font-family: "AktivGrotesk_Regular";
+  src: url(./Fonts/AktivGrotesk-Regular.ttf);
+}
+@font-face {
   font-family: "FONTSPRING_DEMO_Juana_Alt_Medium";
   src: url(./Fonts/Fontspring-DEMO-juanaalt-medium.ttf);
 }
@@ -67,6 +71,6 @@ img {
   justify-content: center;
   align-items: center;
 }
-.imgNoGrayScale{
+.imgNoGrayScale {
   filter: grayscale(0%);
 }
