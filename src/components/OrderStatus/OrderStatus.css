@@ -2,4 +2,55 @@
   border-radius: 8px 0px 0px 8px;
   border: 1px solid #d5d9d9;
   background: #fff;
+  width: 204px;
+  height: 42px;
+  flex-shrink: 0;
+}
+.searchPlaceHolder {
+  color: #d1d1d1;
+  text-align: center;
+  font-family: "AktivGrotesk_Light";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.searchButton {
+  color: #fff;
+  font-family: "AktivGrotesk_Medium";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchButtonDiv {
+  border-radius: 0px 8px 8px 0px;
+  background: #403a35;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.orderColouredBox {
+  border-radius: 8px 8px 0px 0px;
+  border: 1px solid #d5d9d9;
+  background: #e2dad1;
+}
+.ordersText {
+  color: #875f3b;
+  font-family: "AktivGrotesk_Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.ordersTextNumber {
+  color: #875f3b;
+  font-family: "AktivGrotesk_Medium";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
